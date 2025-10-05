@@ -22,6 +22,7 @@ const gamingPc = {
 //Getting the div:
 const showPcSpec = document.getElementById("gamingPcDiv");
 
+// Displaying the object in HTML:
 showPcSpec.innerHTML = `  <p><strong>Processor:</strong> ${gamingPc.processor}</p>
 <p><strong>Grapicscard:</strong> ${gamingPc.grapicsCard}</p>
 <p><strong>Ram:</strong> ${gamingPc.ram}</p>
